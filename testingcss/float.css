@@ -1,0 +1,68 @@
+h1 {
+    color:aquamarine;
+    text-align:center;
+    font-size: 200%;
+    font-weight: normal;
+}
+
+header p {
+    color:darksalmon;
+}
+
+span {
+ color:darkred;
+}
+
+.highlight {
+    color:darkseagreen;
+    background-color:lightblue;
+}
+
+.brand-color {
+    color:darkolivegreen;
+    background-color:yellow;
+}
+
+p {
+    color:gray;    
+}
+
+footer p {
+    color:red;
+}
+
+.content-area {
+    border-top: 3px solid cadetblue;
+    border-bottom: 3px solid cadetblue;
+}
+
+.main-area {
+    width: 50%;
+    float: left;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.support {
+    width: 50%;
+    float: left;
+}
+
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+

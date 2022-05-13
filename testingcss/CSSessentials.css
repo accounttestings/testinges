@@ -1,0 +1,452 @@
+html {
+    background-color:rgb(143,188,143);
+    line-height: 2;
+}
+
+body {
+    font-size: 87%;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: floralwhite;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    background: url(../picturefolder/graystrip.jpg) left bottom repeat-x, #FFF url(../picturefolder/graystrip.jpg) left top repeat-x;
+    background-repeat: repeat-x;
+    background-size: 40px 20px;
+}
+
+.box1 {
+    background-image: url(../picturefolder/cayptown.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 900px 200px;
+}
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: skyblue;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+.content-area {
+    border-top: 3px solid rgb(100, 116, 100);
+    border-bottom: 3px solid rgb(100, 116, 100);
+}
+
+.main-area {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    position: relative;
+    width: 30%;
+    float: left;
+    background-color: #e5e9dc;
+    background-image: linear-gradient(to bottom, #e5e9dc, #FFD);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;    
+            }
+.group:after {
+    clear: both;
+}            
+
+p {
+    color: black;
+}
+
+footer p {
+    color: red;
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+header p {
+    color: grey;
+}
+
+aside {
+    color: rgb(143,188,143);
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+ header p span {
+     color: blue;
+}
+
+.highlight {
+    color: darkred;
+    background-color:khaki;
+}
+
+header h2 {
+    color: burlywood;
+}
+
+/* site navigation */
+.site-nav li {
+     list-style: none;
+     float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+     margin: 0;
+     padding: 0;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav a {
+    color:darkseagreen;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(100, 116, 100);
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color:rgb(207, 205, 205)
+}
+
+ol {
+    float: left;
+    padding: 10px 20px;
+}
+/* end site navigation */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* table styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+table th {
+    text-align: left;
+    background-color: darkseagreen;
+    color: rgb(238, 233, 223);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+table th, table td {
+    border: 1px solid darkseagreen;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #e5e9dc;
+}
+
+.col-favorites {
+    width: 60%;
+}
+
+.col-q, .col-p {
+    width: 20%;
+}
+
+table tr :nth-child(2), 
+table tr :nth-child(3) {
+    text-align: center;
+}
+
+/* form styles */
+form {
+    background-color: rgb(247, 241, 231);
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+input, select {
+    font-family: Tahoma, sans serif;
+    font-size: 100%;
+}
+input[type="email"], input[type="password"], select {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        padding: 0 10px;
+        height: 40px;
+        font-family: Tahoma, sans serif;
+        font-size: 100%;
+        margin-bottom: 20px;
+        border: 1px solid rgb(230, 224, 213)
+    }
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border: 1px darkseagreen;
+    box-shadow: inset 2px 2px 2px rgba(230, 224, 213,0.19);
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: darkseagreen;
+    color: floralwhite;
+    padding: 10px 0;
+    border: 1px solid rgb(161, 209, 161);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid rgb(118, 155, 118);
+    background-color: rgb(161, 209, 161);
+}
+
+input, select {
+    font-family: Tahoma, sans serif;
+    font-size: 100%;
+}
+/* end form styles */
+
+/* typography */
+header h1 {
+    margin: 0;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 165%;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-shadow: 2px 10px 1px rgb(207, 205, 205);
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    color: darkseagreen;
+}
+
+header p a {
+    text-decoration: none;
+}
+
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: rgb(207, 205, 205);
+    line-height: 2;
+}
+
+/* end typography */
+
+/* media query */
+@media screen and (max-width: 700px) {
+    .main-area,
+    .support {
+        width: auto;
+        float: none;
+    }
+
+    .main-area {
+        padding-right: 0;
+    }
+
+    @media screen and (max-width: 700px) {
+        .site-nav li {
+            width: 50%;
+            margin-right: 0;
+        }
+    
+        .site-nav a {
+            padding: 20px 0;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+            border: 3px solid #e5e9dc;
+        }
+    }    
+
+@media screen and (min-width: 1300px) {
+    .container {
+        max-width: 1200px;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hide-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .site-nav li {
+        width: 70%;
+        margin-right: 0;
+    }
+    .site-nav a {
+        padding: 20px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border: 3px solid #e5e9dc;
+    }
+}
+}
+/* end media query */
+
+/* grid system */
+
+.col {
+    float: left;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+/* end grid system */
+
+.info-box {
+    background-color: #FFD;
+    border: 5px solid #e5e9dc;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+}
+
+.fix {
+    clear: both;
+}
+
+/* slideshow */
+
+.image-banner {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    z-index: 10;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.image-banner img {
+    display: block;
+}
+.cycle-slideshow {
+    margin-bottom: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.slide {
+    width: 70%;
+    position: relative;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.slide-text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(143,188,143,0.3);
+    color: black;
+    width: 60%;
+    height:50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.slide-text h3 {
+    margin: 0;
+}
+/* end slideshow */
+
+/* prev and next */
+
+.cycle-prev, .cycle-next {
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    background-color: rgba(5, 5, 5, 0.4);
+    color: rgb(196, 184, 184);
+    padding: 1px 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 130%;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.cycle-next {
+    right: 0;
+}
+
+.cycle-slideshow:hover .cycle-prev,
+.cycle-slideshow:hover .cycle-next {
+    opacity: 1;
+}
+
+/* end prev and next */
